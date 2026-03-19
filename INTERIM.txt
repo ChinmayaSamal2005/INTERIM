@@ -1,0 +1,295 @@
+Object-Oriented Programming (OOP) 
+
+What are the four pillars of Object-Oriented Programming in C#? 
+
+How does inheritance promote code reusability in C#? 
+
+What is the difference between override and new keywords in method hiding? 
+
+How does polymorphism enhance flexibility in application design? 
+
+What is the purpose of an abstract class vs. an interface? 
+
+Can a class implement multiple interfaces? Explain with an example. 
+
+How is encapsulation achieved in C#? 
+
+What is the role of constructors in class instantiation? 
+
+SOLID Principles 
+
+What does the Single Responsibility Principle (SRP) imply in C# development? 
+
+How does the Open/Closed Principle improve system maintainability? 
+
+Why is the Liskov Substitution Principle essential in OOP? 
+
+Explain the Interface Segregation Principle with a practical scenario. 
+
+What is the Dependency Inversion Principle and how is it applied in ASP.NET Core? 
+
+Collections in C# 
+
+What is the difference between List<T> and Array? 
+
+When would you use a Dictionary<TKey, TValue> over a List<T>? 
+
+Explain how HashSet<T> avoids duplicate entries. 
+
+What is the difference between Queue<T> and Stack<T>? 
+
+How does LinkedList<T> differ from a regular List<T>? 
+
+Generics in C# 
+
+Why are generics important in .NET programming? 
+
+How do you define a generic method in C#? 
+
+What are constraints in generics and why would you use them? 
+
+What’s the advantage of generic collections over non-generic ones? 
+
+Explain how generics improve type safety and performance. 
+
+How would you create a generic class that operates on numeric types? 
+
+Can you nest generic types in C#? Share a use case. 
+
+ 
+
+ADO.NET 
+
+What is ADO.NET and how does it facilitate database connectivity in .NET applications? 
+
+ What are the key components of ADO.NET? 
+
+ How does the SqlConnection class work in ADO.NET? 
+
+ What is the difference between ExecuteReader, ExecuteScalar, and ExecuteNonQuery in ADO.NET? 
+
+ How do you use DataAdapter and DataSet for disconnected data access? 
+
+ What is the role of Command objects in ADO.NET? 
+
+ How do you handle transactions in ADO.NET? 
+
+ What is the difference between DataTable and DataReader in ADO.NET? 
+
+ 
+
+Entity Framework Core (EF Core) 
+
+What is EF Core and how does it differ from ADO.NET? 
+
+ How do you define a DbContext in EF Core? 
+
+ What is the purpose of DbSet in EF Core? 
+
+ How does EF Core support LINQ queries? 
+
+ What are migrations in EF Core and why are they important? 
+
+ What is the difference between eager loading, lazy loading, and explicit loading in EF Core? 
+
+ How do you configure relationships (e.g., one-to-many, many-to-many) in EF Core? 
+
+ 
+
+ 
+
+NUnit 
+
+What is NUnit and why is it used in .NET applications? 
+
+How do you install NUnit in a .NET project? 
+
+What is the purpose of the [Test] attribute in NUnit? 
+
+How do you use the [SetUp] and [TearDown] attributes in NUnit? 
+
+What is the difference between [TestCase] and [Test] in NUnit? 
+
+How do you assert that two values are equal in NUnit? 
+
+What is the purpose of the [TestFixture] attribute in NUnit? 
+
+How do you test for exceptions in NUnit? 
+
+What is the role of the [Ignore] attribute in NUnit? 
+
+How do you run parameterized tests in NUnit? 
+
+What is the difference between [OneTimeSetUp] and [SetUp] in NUnit? 
+
+How do you group tests in NUnit using categories? 
+
+ 
+
+ASP.NET Core MVC 
+
+What is ASP.NET Core MVC and how does it differ from traditional ASP.NET MVC? 
+
+What are the main components of the MVC pattern in ASP.NET Core? 
+
+How do you define a controller in ASP.NET Core MVC? 
+
+What is the purpose of the ViewData and ViewBag in ASP.NET Core MVC? 
+
+How do you pass data from a controller to a view in ASP.NET Core MVC? 
+
+What is the difference between PartialView and ViewComponent in ASP.NET Core MVC? 
+
+How do you handle model validation in ASP.NET Core MVC? 
+
+What is the role of the IActionResult interface in ASP.NET Core MVC? 
+
+How do you configure routing in ASP.NET Core MVC? 
+
+What is the purpose of the TempData property in ASP.NET Core MVC? 
+
+Razor 
+
+What is Razor and how is it used in ASP.NET Core MVC? 
+
+How do you write inline C# code in Razor views? 
+
+What is the difference between @Html.Raw() and @Html.Encode() in Razor? 
+
+How do you use Razor syntax to loop through a collection in a view? 
+
+What are Razor Layouts and how do they help in creating consistent UI? 
+
+Web API 2 
+
+What is Web API 2 and how does it differ from ASP.NET MVC? 
+
+How do you define a Web API controller in Web API 2? 
+
+What is the purpose of the HttpGet, HttpPost, HttpPut, and HttpDelete attributes in Web API 2? (Http Verbs) 
+
+How do you enable attribute routing in Web API 2? 
+
+What is the difference between IHttpActionResult and HttpResponseMessage in Web API 2? 
+
+How do you handle exceptions in Web API 2? What are the different options? 
+
+What is the role of MediaTypeFormatter in Web API 2? 
+
+How do you secure a Web API using token-based authentication? 
+
+What is CORS and how do you enable it in Web API 2? 
+
+How do you test a Web API 2 endpoint using tools like Postman or Swagger? 
+
+ 
+
+ 
+
+Program.cs 
+
+What is the purpose of the Program.cs file in an ASP.NET Core application? 
+
+How does the CreateBuilder method in Program.cs work? 
+
+What is the role of the ConfigureServices method in Program.cs? 
+
+How do you add middleware components in the Program.cs file? 
+
+What is the difference between Use and Run methods in middleware configuration? 
+
+Dependency Injection (DI) 
+
+What is Dependency Injection (DI) and why is it important in ASP.NET Core? 
+
+How do you register a service in the DI container in ASP.NET Core? 
+
+What is the difference between AddSingleton, AddScoped, and AddTransient in DI? Service Lifetime 
+
+How do you inject a service into a controller in ASP.NET Core? Q. 11 can give you a  heads up 
+
+What is the purpose of the IServiceProvider interface in DI? 
+
+Categories of Dis. Constructor Injection, Method Injection etc.  
+
+Middleware 
+
+What is middleware in ASP.NET Core? 
+
+How does the middleware pipeline work in ASP.NET Core? 
+
+How do you create custom middleware in ASP.NET Core? 
+
+What is the purpose of the app.UseRouting() and app.UseEndpoints() methods in middleware configuration? 
+
+How do you handle exceptions using middleware in ASP.NET Core? 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+SQL Server Core Concepts 
+
+What is the main difference between a Stored Procedure and a User-Defined Function in SQL Server? 
+
+Can a Stored Procedure return a value? How does that differ from a function's return type? 
+
+What are the advantages of using Views in SQL Server? 
+
+What does WITH SCHEMABINDING do when creating a View? 
+
+How can you execute a parameterized Stored Procedure? 
+
+ 
+
+Triggers & Their Behaviors 
+
+What’s the difference between AFTER and INSTEAD OF triggers? 
+
+Can a trigger modify the same table it is defined on? What risk does this pose? 
+
+How do INSERTED and DELETED pseudo-tables work inside triggers? 
+
+How do you prevent a trigger from running recursively? 
+
+ 
+
+Functions and Views 
+
+What is a Scalar Function vs. Table-Valued Function (TVF)? Give one use case for each. 
+
+Can a User-Defined Function (UDF) be used in a JOIN clause? 
+
+What's a tricky limitation of Views when it comes to updating data? 
+
+How does a Table-Valued Function differ from a View in terms of flexibility? 
+
+ 
+
+Challenges 
+
+A trigger causes an infinite loop during data insertion. How would you troubleshoot and prevent this? 
+
+You need reusable logic that accepts parameters and returns a table. Would you choose a View, a UDF, or a Stored Procedure — and why? _
